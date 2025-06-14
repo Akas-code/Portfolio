@@ -1,3 +1,4 @@
+  alert("Welcome to my New Project")
   function changeColor() {
     const boxs = document.querySelectorAll('.topic1');
     boxs.forEach(topic1 => {
