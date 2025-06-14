@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Portfolio</title>
+    <link href="./src/output.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <script src="script.js"></script>
+
+</head>
+
+<body class=" bg-indigo-950
+ w-full h-full">
+    <div class="container mx-auto w-full h-[100%]">
+        <div class="1st">
+            <div class="flex w-full ">
+                <div class="outr w-[85%] mx-auto flex justify-center items-center pl-32">
+                    <div class="txt ">
+                        <h1 class="text-8xl font-poppins text-white font-bold">Hi, I'm Akash Frontend Developer</h1>
+                        <div class="btns space-x-6 pt-7">
+                            <button
+                                class="border-red-100 bg-green-200  text-3xl p-2 border-1 rounded-[8px] pl-5 pr-5 cursor-pointer hover:bg-green-50">Hire
+                                Me</button>
+                            <button
+                                class="border-red-100 text-3xl p-2 border-1 pl-5 pr-5 text-white rounded-[8px] cursor-pointer hover:bg-indigo-900 ">Download
+                                Resume</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="profile w-1/2 flex justify-center items-center pr-20"><img src="Pr-removebg-preview.png"
+                        alt=""></div>
+            </div>
+        </div>
+        <div class="gapp h-[100px]"></div>
+        <div class="2nd container">
+            <div class="2nds w-full mx-auto justify-center items-center pl-32">
+                <h2 class="text-6xl font-poppins text-white font-bold pb-10">About Me</h2>
+                <div class="para w-1/2">
+                    <p class="text-xl font-poppins text-white">I am Passionate About Frontend Development and this
+                        Frontend created with <span><button class="bg-gray-500 pl-2 pr-2 rounded-2xl cursor-pointer"
+                                onclick="changeColor()">Click Here</button></span> these technologies.</p>
+                    <div class="cont flex gap-8 pt-6">
+                        <div class="topic1 bg-indigo-300 pl-5 pr-5 p-2 text-xl text-white rounded-[8px]">HTML</div>
+                        <div class="topic bg-indigo-300 pl-5 pr-5 p-2 text-xl text-white rounded-[8px]">CSS</div>
+                        <div class="topic1 bg-indigo-300 pl-5 pr-5 p-2 text-xl text-white rounded-[8px]">TAILWINDCSS
+                        </div>
+                        <div class="topic1 bg-indigo-300 pl-5 pr-5 p-2 text-xl text-white rounded-[8px]">JAVASCRIPT
+                        </div>
+                        <div class="topic bg-indigo-300 pl-5 pr-5 p-2 text-xl text-white rounded-[8px]">REACTJS</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="gapp h-[100px]"></div>
+        <div class="3rd  w-full mx-auto justify-center items-center pl-32">
+            <div class="projects ">
+                <h1 class="text-6xl font-poppins text-white font-bold pb-10">Projects</h1>
+                <div class="cards w-full flex gap-20 items-center">
+
+                    <div class="card rounded-[5px] w-[20%] h-auto bg-slate-400 pb-6">
+                        <img class="w-[90%] mx-auto pt-5 rounded-[7px]" src="sarkar.jpg" alt="">
+                        <h3 class="text-[18px] font-poppins text-white font-bold pl-4 pt-3">Sarkari Result Clone</h3>
+                        <p class="text-[13px] font-poppins text-white font-bold pl-4 pt-3">Created with HTML, CSS
+                            <span><button class="bg-green-400 rounded-4xl pl-2 pr-2 cursor-pointer"
+                                    onclick="clickPre()">Click Here</button> To Preview</span>
+                        </p>
+                    </div>
+                    <div class="card rounded-[5px] w-[20%] h-auto bg-slate-400 pb-6">
+                        <img class="w-[90%] mx-auto pt-5 rounded-[7px]" src="sarkar.jpg" alt="">
+                        <h3 class="text-[18px] font-poppins text-white font-bold pl-4 pt-3">Sarkari Result Clone</h3>
+                        <p class="text-[13px] font-poppins text-white font-bold pl-4 pt-3">Created with HTML, CSS
+                            <span><button class="bg-green-400 rounded-4xl pl-2 pr-2 cursor-pointer"
+                                    onclick="clickPre()">Click Here</button> To Preview</span>
+                        </p>
+                    </div>
+                    <div class="card rounded-[5px] w-[20%] h-auto bg-slate-400 pb-6">
+                        <img class="w-[90%] mx-auto pt-5 rounded-[7px]" src="sarkar.jpg" alt="">
+                        <h3 class="text-[18px] font-poppins text-white font-bold pl-4 pt-3">Sarkari Result Clone</h3>
+                        <p class="text-[13px] font-poppins text-white font-bold pl-4 pt-3">Created with HTML, CSS
+                            <span><button class="bg-green-400 rounded-4xl pl-2 pr-2 cursor-pointer"
+                                    onclick="clickPre()">Click Here</button> To Preview</span>
+                        </p>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <div class="gapp h-[100px]"></div>
+        <div class="4th">
+            <div class="contact w-full mx-auto justify-center items-center pl-32">
+                <div class="conhd">
+                    <h1 class="text-6xl font-poppins text-white font-bold pb-10">Contact</h1>
+                </div>
+                <div class="inp flex flex-col gap-6">
+                    <input class="text-green-900 rounded-[7px] bg-indigo-300
+                w-1/2 h-[50px] flex items-center z-10 pl-7" type="text" placeholder="Name">
+                    <input class="text-green-700 rounded-[7px] bg-indigo-300
+                w-1/2 h-[50px] flex items-center pl-7 " type="text" placeholder="Email">
+                    <input class="text-green-900 rounded-[7px] bg-indigo-300
+                w-1/2 h-[100px] pl-7 top-3 " type="text" placeholder="Message">
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
